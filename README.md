@@ -36,17 +36,17 @@ All necessary templates and values.yaml for helm chart you can find in the `helm
 
 1. Install compreface chart. It will deploy the whole CompreFace application
 ```commandline
-helm install compreface-kubernetes ./helm-config --namespace compreface --create-namespace
+helm install compreface-kubernetes ./helm-config --namespace cface --create-namespace
 ```
 
 2. Run minikube service for public access from your browser
 ```commandline
-minikube service compreface-ui -n compreface
+minikube service compreface-ui -n face
 ```
 
 3. Delete compreface chart. It will terminate CompreFace application
 ```commandline
-helm delete compreface-kubernetes -n compreface
+helm delete compreface-kubernetes -n face
 ```
 # Deployment on AWS
 This tutorial shows how to install face recognition system CompreFace on AWS EKS cluster.
