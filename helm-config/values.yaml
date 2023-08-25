@@ -17,7 +17,7 @@ postgres:
 core:
   repository: exadel/compreface-core
   pullPolicy: Always
-  tag: 0.5.1
+  tag: 1.1.0
   port: 3000
   replicas: 1
   name: cf-core
@@ -25,7 +25,7 @@ core:
 api:
   repository: exadel/compreface-api
   pullPolicy: Always
-  tag: 0.5.1
+  tag: 1.1.0
   port: 8080
   replicas: 1
   name: cf-api
@@ -33,7 +33,7 @@ api:
 admin:
   repository: exadel/compreface-admin
   pullPolicy: Always
-  tag: 0.5.1
+  tag: 1.1.0
   port: 8080
   replicas: 1
   name: cf-admin
@@ -41,7 +41,7 @@ admin:
 fe:
   repository: exadel/compreface-fe
   pullPolicy: Always
-  tag: 0.5.1
+  tag: 1.1.0
   port: 80
   replicas: 1
   name: cf-fe
