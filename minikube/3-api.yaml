@@ -28,7 +28,7 @@ spec:
               value: 'true'
             - name: SPRING_PROFILES_ACTIVE
               value: 'dev'
-          image: 'exadel/compreface-api:0.5.1'
+          image: 'exadel/compreface-api:1.1.0'
           ports:
           - containerPort: 8080
           name: cf-api

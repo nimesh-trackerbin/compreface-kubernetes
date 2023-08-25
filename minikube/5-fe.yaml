@@ -15,7 +15,7 @@ spec:
         app: fe
     spec:
       containers:
-        - image: 'exadel/compreface-fe:0.5.1'
+        - image: 'exadel/compreface-fe:1.1.0'
           name: cf-fe
           ports:
             - containerPort: 80
@@ -30,7 +30,7 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - port: 8000
+    - port: 80
       targetPort: 80
   selector:
     app: fe

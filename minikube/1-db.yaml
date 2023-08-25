@@ -37,7 +37,7 @@ spec:
               value: postgres
             - name: POSTGRES_USER
               value: postgres
-          image: postgres:11.5
+          image: postgres:13.3
           name: cf-db
           ports:
           - containerPort: 5432

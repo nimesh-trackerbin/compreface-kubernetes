@@ -31,7 +31,7 @@ spec:
               value: 'postgres'
             - name: SPRING_PROFILES_ACTIVE
               value: 'dev'
-          image: 'exadel/compreface-admin:0.5.1'
+          image: 'exadel/compreface-admin:1.1.0'
           ports:
           - containerPort: 8080
           name: cf-admin
